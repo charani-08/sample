@@ -1,0 +1,10 @@
+﻿@model mvc.Models.tblemployee
+@{
+    ViewBag.Title = "update";
+}
+
+<h2>update</h2>
+ <div class="form-group">
+     <label for=" firstname"> @Html.DisplayNameFor(obj=>obj.firstname)</label>
+     @Html.PasswordFor(obj=>obj.firstname,new { @class="form-control"})
+ </div>
