@@ -24,7 +24,7 @@ namespace mvc.Controllers
         {
             return View();
         }
-        //changed insert operation
+        //insert operation
 
         [HttpPost]
         public ActionResult insert( tblemployee emp)
